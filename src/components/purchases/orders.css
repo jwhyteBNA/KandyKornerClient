@@ -1,0 +1,19 @@
+.purchases {
+    display: flex;
+    flex-direction: column;
+}
+
+.purchase {
+    background-color:rgb(106, 190, 199); 
+    border: 1px dotted rgb(233, 177, 140);
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
+
+.purchase_footer {
+    display: flex;
+    padding: 1rem 0 0 0;
+    border-top: 2px dashed rgb(234, 172, 166);
+    margin: 1rem 0 0 0;
+    font-style: italic;
+}

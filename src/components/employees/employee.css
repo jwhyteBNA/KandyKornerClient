@@ -1,0 +1,27 @@
+.employees {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.employee {
+    background-color: rgb(232, 177, 234);
+    border: 1px dotted rgb(74, 198, 21);
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
+
+.employee__footer {
+    display: flex;
+    padding: 1rem 0 0 0;
+    border-top: 2px dashed rgb(0, 28, 139);
+    margin: 1rem 0 0 0;
+    font-style: italic;
+}
+
+.employee__delete {
+    margin-left: auto;
+    background-color:rgb(228, 104, 182)
+}
+
